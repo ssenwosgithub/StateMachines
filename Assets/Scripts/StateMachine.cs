@@ -52,10 +52,12 @@ public class StateMachine : MonoBehaviour
 
     void Swimming()
     {
+        Debug.Log("I am swimming");
         currentState = State.swimming;
     }
     void Climbing()
     {
+        Debug.Log("I am climbing");
         currentState = State.climbing;
     }
 
